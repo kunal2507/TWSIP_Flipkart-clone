@@ -1,0 +1,494 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    
+    z-index: 1;
+    
+}
+.nav-logo{
+    height: 40px;
+    width: 120px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    position: relative;
+    bottom: 20px;
+
+    
+
+}
+.logo{
+    background-image: url('/images/1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75px;
+    margin-bottom: -25px;
+    position: relative;
+    left: 85px;
+    font-weight: bold;
+    
+    
+    
+
+}
+.nav-logo p{
+   font-size: 11px;
+    margin-bottom: 50px;
+    color: white;
+    position: relative;
+    left: 90px;
+    
+    
+}
+.plus i{
+    color: yellow;
+
+}
+.nav-search{
+    display: flex;
+}
+#search{
+    height: 36px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+.nav-search button{
+    width: 40px;
+    color: #2874f0;
+    position: relative;
+    bottom: 10px;
+    border-left: none;
+    box-shadow: none;
+    border: none;
+
+}
+.nav-login button{
+    color: #2874f0;
+    height: 36px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: -40px;
+    border: none;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.nav-details{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-left: -50px;
+    
+}
+.details a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: -20px;
+    position: relative;
+    
+}
+.nav-more{
+    color: white;
+    font-weight: bold;
+    margin-left: -50px;
+
+}
+.nav-cart{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    margin-left: -50px;
+    
+}
+.nav-cart p{
+    margin-left: 6px;
+}
+
+.Category {
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    box-shadow: 5px 4px 5px gray;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    position: relative;
+    top: 60px;
+    
+    
+}
+.Category img:hover{
+    transform: scale(1.2);
+    
+}
+.grocery{
+    margin-right: 50px;
+}
+
+.Fashion0 {
+    margin-left: 50px;
+}
+
+.Appliances0 {
+    margin-left: 50px;
+}
+
+.Electronics0 {
+    margin-left: 50px;
+}
+.travel{
+    margin-left: 50px;
+}
+.beauty{
+    margin-left: 50px;
+}
+.TopOffers0 {
+    margin-left: 50px;
+}
+.Twowheeler{
+margin-left: 50px;
+}
+
+.bottom {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.Category .bottom:Hover {
+    color: #2874f0;
+}
+
+.Category a {
+    text-decoration: none;
+}
+#devCarousel {
+    width: 100%;
+    height: 300px;
+
+    overflow: hidden;
+    /*border: solid 2px red;*/
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+#image {
+    height: 300px;
+    width: 100%;
+    
+}
+#image2{
+    height: 250px;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 35px;
+}
+#image3{
+    height: 250px;
+    width: 70%;
+    margin-left: 190px;
+    margin-top: 40px;
+}
+#image4{
+margin-left: 300px;
+margin-top: 50px;
+
+}
+ /* Styling for the dropdown container */ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+    bottom: 12px;
+}
+
+/* Styling for the dropdown toggle button */
+.btn.dropdown-toggle {
+    background-color: #2874f0;
+    color: white;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: -40px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    
+}
+
+/* Styling for the dropdown menu */
+.dropdown-menu {
+    position: absolute;
+    left: -60px;
+    display: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 200px;
+}
+
+/* Styling for dropdown items */
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    text-decoration: none;
+} 
+.d-flex{
+    display: flex;
+}
+.dropdown-menu .fa-solid{
+    margin-top: 10px;
+    color: #2874f0;
+    margin-left: 7px;
+}
+.dropdown-divider{
+    height: 0.25px;
+    background-color: rgba(0,0,0,0.2);
+}
+#Electronics {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    box-shadow: 5px 4px 5px 5px gray;
+    /*border: 5px double orange;*/
+}
+
+.tileContainer {
+    height: 357px;
+    width: 15%;
+    margin-left: 1%;
+    margin-top: 1%;
+    
+    float: left;
+}
+.tileContainer img:hover{
+    transform: scale(1.1);
+}
+
+.tileComponent1 {
+    width: 100%;
+    height: 250px;
+}
+
+.tileComponent1>img {
+    display: block;
+    margin: auto;
+    opacity: 1;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tileComponent2 {
+    width: 100%;
+    position: relative;
+    left: 15px;
+    
+    
+}
+
+.compHeading1 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: -11px;
+}
+
+.compSubHeading1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.compSubHeading1>button {
+    color: white;
+    font-weight: bold;
+    background-color: #2874f0;
+    border: none;
+    height: 26px;
+    width: 117px;
+}
+.tileComponent3{
+    width: 100%;
+    position: relative;
+    bottom: 22px;
+}
+.compHeading2{
+    font-weight: bold;
+}
+.compSubHeading3{
+    font-weight: bolder;
+}
+.sales{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.offer1{
+    height: 250px;
+    width: 30%;
+    background-image: url('offer1.jpg');
+    background-size: cover;
+    
+    
+}   
+.offer2{
+    height: 250px;
+   width: 30%;
+   background-image: url('offer2.jpg');
+   background-size: contain;
+}
+.offer3{
+    height: 250px;
+   width: 30%;
+   background-image: url('offer3.jpg');
+   background-size: contain;
+}
+.offer1:hover{
+    transform: scale(1.1);
+}
+.offer2:hover{
+    transform: scale(1.1);
+}
+.offer3:hover{
+    transform: scale(1.1);
+}
+
+
+.information {
+    background-color: white;
+    color: #878787;
+    margin: 2% 0%;
+    padding-left: 40px;
+}
+
+.information h1 {
+    font-size: 1.5em;
+}
+
+.information h2 {
+    font-size: 1.2em;
+}
+
+.info {
+    font-size: .9.5em;
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Footer */
+footer {
+    background-color: #172337;
+    color: white;
+    padding-top: 3%;
+}
+
+.Footer h6 {
+    color: #878787;
+    font-size: .8em;
+}
+
+.Footer>div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    font-size: .75em;
+    font-weight: 100;
+}
+
+.Footer a {
+    color: white;
+    line-height: 1.3rem;
+}
+
+.Footer p {
+    margin: 0;
+    font-size: .96em;
+    line-height: 1.2rem;
+}
+
+footer i {
+    color: gold;
+}
+
+footer span {
+    font-size: .75em;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Media Query for up to 500px Screen Width */
+@media (max-width: 500px) {
+
+    /* Navbar */
+    .navbar {
+        justify-content: space-between;
+        padding: 10px 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #2874f0;
+    }
+
+    .nav-logo {
+        margin-right: 10px;
+        bottom: auto;
+    }
+
+    .nav-logo p {
+        margin-bottom: 0;
+        left: auto;
+    }
+
+    .nav-details,
+    .nav-cart,
+    .nav-login button {
+        display: none;
+    }
+
+    /* Tile Component */
+    .tileContainer {
+        width: 90%;
+        /* Adjust this value as needed */
+        margin: 80px auto 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .tileContainer .tileComponent1 {
+        width: 48%;
+        /* Adjust this value as needed */
+        margin-bottom: 20px;
+    }
+}
